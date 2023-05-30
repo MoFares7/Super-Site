@@ -1,6 +1,6 @@
 "use client";
 import React from "react"
-import Image from "next/image"
+
 import NavbarCenter from './../components/NavbarCenter';
 import center from "../public/icons/center.svg";
 import users from "../public/icons/users.svg";
@@ -12,7 +12,7 @@ import Footer from "./../components/Footer";
 export default function HomePage() {
         return (
                 <div className="bg-gray-50">
-                        <NavbarCenter />
+                   
                         <div className="p-4">
                                 <h1 className="text-purple-600 font-bold">Our Jops</h1>
 
@@ -51,7 +51,7 @@ export default function HomePage() {
                                                 name={"+ Number of Request Center"}
                                         />
                                 </div>
-                                <Footer />
+                            
                         </div>
                 </div>
 
