@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import { useState } from 'react';
-import loginImage from '../public/images/login.png';
+import loginImage from '../public/icons/login.svg';
 
 export default function LoginPage() {
         const [email, setEmail] = useState('');
@@ -18,14 +18,14 @@ export default function LoginPage() {
                                 <div className="First-section p-4 w-full bg-purple-600 disp flex flex-col justify-center items-center">
                                         <div>
                                                 <Image src={loginImage} alt="Login Image" width={300} height={300} className="mx-auto" />
-                                                <h3 className="text-center">Welcome in Management</h3>
+
                                         </div>
                                 </div>
-                                <div className="Second-section p-4 max-h-full w-full bg-whait bg-gray-50 flex flex-col justify-center items-center">
-                                        <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+                                <div className="Second-section p-0 max-h-full w-full bg-whait bg-gray-50 flex flex-col justify-center ">
+                                        <form onSubmit={handleSubmit} className=" content-center mx-20 " >
                                                 <h1 className="font-bold text-black text-center text-xl p-2">Hello again</h1>
                                                 <p className="text-black text-center font-thin text-xs ">you will Lead the dashbord
-                                                        from here Let's go
+
                                                 </p> <p className="text-black text-center font-thin text-xs pb-2">
                                                         from here Let's go
                                                 </p>
@@ -55,7 +55,7 @@ export default function LoginPage() {
                                                                 onChange={(event) => setPassword(event.target.value)}
                                                         />
                                                 </div>
-                                                <div className="flex items-center justify-between">
+                                                <div className="flex items-center justify-between mx-auto content-center text-center">
                                                         <button
                                                                 className="text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                                                                 type="submit"
