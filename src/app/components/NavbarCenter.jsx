@@ -9,7 +9,7 @@ export default function NavbarCenter() {
                                                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                                         <button
                                                                 type="button"
-                                                                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500"
+                                                                className="inline-flex items-center justify-center p-2 rounded-md text-gray-50 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500"
                                                                 aria-controls="mobile-menu"
                                                                 aria-expanded="false"
                                                         >
@@ -65,19 +65,19 @@ export default function NavbarCenter() {
                                                                         </a>
                                                                         <a
                                                                                 href="/"
-                                                                                className="text-gray-300 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                                                                className="text-gray-50 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                                                         >
                                                                                 Centers
                                                                         </a>
                                                                         <a
                                                                                 href="/"
-                                                                                className="text-gray-300 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                                                                className="text-gray-50 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                                                         >
                                                                                 About
                                                                         </a>
                                                                         <a
                                                                                 href="/"
-                                                                                className="text-gray-300 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                                                                className="text-gray-50 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                                                         >
                                                                                 LogOut
                                                                         </a>

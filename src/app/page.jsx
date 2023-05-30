@@ -6,7 +6,7 @@ import HomePage from './pages/HomePages';
 export default function Home() {
     return (
         <div className='Main-div'>
-       <HomePage />
+            <LoginPage />
         </div>
     );
 }

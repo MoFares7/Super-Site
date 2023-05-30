@@ -23,10 +23,10 @@ export default function LoginPage() {
                                 </div>
                                 <div className="Second-section p-0 max-h-full w-full bg-whait bg-gray-50 flex flex-col justify-center ">
                                         <form onSubmit={handleSubmit} className=" content-center mx-20 " >
-                                                <h1 className="font-bold text-black text-center text-xl p-2">Hello again</h1>
-                                                <p className="text-black text-center font-thin text-xs ">you will Lead the dashbord
+                                                <h1 className="font-bold text-black text-center text-4xl p-2">Hello again</h1>
+                                                <p className="text-black text-center font-light text-lg ">you will Lead the dashbord
 
-                                                </p> <p className="text-black text-center font-thin text-xs pb-2">
+                                                </p> <p className="text-black text-center font-light text-lg pb-2">
                                                         from here Let's go
                                                 </p>
                                                 <div className="mb-2">
@@ -42,7 +42,7 @@ export default function LoginPage() {
                                                                 onChange={(event) => setEmail(event.target.value)}
                                                         />
                                                 </div>
-                                                <div className="mb-6">
+                                                <div className="mb-6 pt-5">
                                                         <label className="block text-gray-700 font-bold mb-2" htmlFor="password">
                                                                 Password
                                                         </label>
@@ -55,7 +55,7 @@ export default function LoginPage() {
                                                                 onChange={(event) => setPassword(event.target.value)}
                                                         />
                                                 </div>
-                                                <div className="flex items-center justify-between mx-auto content-center text-center">
+                                                <div className="flex items-center justify-between mx-auto content-center text-center pt-5">
                                                         <button
                                                                 className="text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                                                                 type="submit"
