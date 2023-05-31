@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function NavbarCenter() {
         return (
                 <div>
@@ -64,13 +64,13 @@ export default function NavbarCenter() {
                                                                                 Dashboard
                                                                         </a>
                                                                         <a
-                                                                                href="/"
+                                                                                href={"/Centers"}
                                                                                 className="text-gray-50 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                                                         >
                                                                                 Centers
                                                                         </a>
                                                                         <a
-                                                                                href="/"
+                                                                                href="Centers"
                                                                                 className="text-gray-50 hover:bg-purple-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                                                         >
                                                                                 About
@@ -94,22 +94,22 @@ export default function NavbarCenter() {
                                                                 Dashboard
                                                         </a>
                                                         <a
-                                                                href="/"
+                                                                href="/Centers"
                                                                 className="text-gray-300 hover:bg-purple-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                                         >
-                                                                Team
+                                                                Centers
                                                         </a>
                                                         <a
                                                                 href="/"
                                                                 className="text-gray-300 hover:bg-purple-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                                         >
-                                                                Projects
+                                                                About
                                                         </a>
                                                         <a
                                                                 href="/"
                                                                 className="text-gray-300 hover:bg-purple-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                                         >
-                                                                Calendar
+                                                                Logout
                                                         </a>
                                                 </div>
                                         </div>

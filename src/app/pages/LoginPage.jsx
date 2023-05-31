@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useState } from 'react';
 import loginImage from '../public/icons/login.svg';
-
+import { useNavigate } from "react-router-dom";
 export default function LoginPage() {
         const [email, setEmail] = useState('');
         const [password, setPassword] = useState('');
@@ -11,6 +11,13 @@ export default function LoginPage() {
                 event.preventDefault();
                 // TODO: handle form submission
         };
+
+        const navigate = useNavigate();
+        const navigateToContacts = () => {
+                // 👇️ navigate to /contacts
+                navigate('/');
+        };
+
 
         return (
                 <div className="h-screen flex flex-col justify-center items-center">
@@ -59,6 +66,7 @@ export default function LoginPage() {
                                                         <button
                                                                 className="text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                                                                 type="submit"
+                                                                onSubmit={navigateToContacts}
                                                         >
                                                                 Login
                                                         </button>
