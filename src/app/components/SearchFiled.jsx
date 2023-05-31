@@ -3,7 +3,7 @@ import search from "./../public/icons/search-w.svg"
 import Image from "next/image"
 export default function SearchFiled() {
         return (
-                <div className="w-70vw bg-white p-4">
+                <div className="w-70vw max-h-36 bg-white  m-3">
                         <div className="flex items-center bg-white p-2 rounded-md">
                                 <input
                                         type="text"

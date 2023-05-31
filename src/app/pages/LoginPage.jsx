@@ -21,7 +21,7 @@ export default function LoginPage() {
 
                                         </div>
                                 </div>
-                                <div className="Second-section p-0 max-h-full w-full bg-whait bg-gray-50 flex flex-col justify-center ">
+                                <div className="Second-section p-0 max-h-full w-full bg-whait bg-gray-100 flex flex-col justify-center ">
                                         <form onSubmit={handleSubmit} className=" content-center mx-20 " >
                                                 <h1 className="font-bold text-black text-center text-4xl p-2">Hello again</h1>
                                                 <p className="text-black text-center font-light text-lg ">you will Lead the dashbord

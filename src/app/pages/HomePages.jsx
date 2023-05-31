@@ -11,7 +11,7 @@ import Footer from "./../components/Footer";
 
 export default function HomePage() {
         return (
-                <div className="bg-gray-50">
+                <div className="bg-gray-100">
                    
                         <div className="p-4">
                                 <h1 className="text-purple-600 font-bold">Our Jops</h1>
