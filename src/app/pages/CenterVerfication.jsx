@@ -7,16 +7,17 @@ import Footer from "../components/Footer";
 export default function CenterVerficeation() {
         return (
                 <div className="bg-gray-100 pt-3">
+                        <div className="xl:px-52 pt-5 sm: '8px'">
+                                <SearchFiled />
+                        </div>
 
-                        <SearchFiled />
-
-                        <div className="flex justify-center items-center  rounded-m text-center h-screen">
+                        <div className="flex justify-center items-center  rounded-m text-center h-screen px-10">
                                 <div className="h-30vh rounded-m w-1/2 bg-white">
                                         <div className="w-full ">
                                                 <Image src={study} alt="Login Image" width="100%" height="100%" className="mx-auto max-h-full  " />
                                         </div>
 
-                                        <div className="flex flex-col text-black h-full">
+                                        <div className="flex flex-col text-black h-full px-10">
                                                 <div className="flex p-4 justify-between">
                                                         <h3 className="font-bold">Center Name</h3>
                                                         <p className="text-gray-700 pl-10">Study Zone</p>

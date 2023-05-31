@@ -8,12 +8,13 @@ import CentersPage from './pages/CentersPage';
 import AccountUsersPage from './pages/AccountUsersPage';
 import { Route, Routes, Router, BrowserRouter, Link } from "react-router-dom";
 import CenterVerficeation from './pages/CenterVerfication';
+import DetailsCenter from './pages/DetailsCenter';
 
 export default function Home() {
     return (
         <div className='Main-div'>
             <NavbarCenter />
-            <CenterVerficeation />
+            <DetailsCenter />
             {/* <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<HomePage />} />

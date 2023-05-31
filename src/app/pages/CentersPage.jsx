@@ -12,7 +12,9 @@ export default function CentersPage() {
                 <div className="p-4 bg-gray-100">
                         <h1 className="text-purple-600 font-bold pl-4 pb-4">The Centers in Platform</h1>
 
-                        <SearchFiled />
+                        <div className="xl:px-52  sm: '8px'"><SearchFiled /></div>
+
+
                         <div className="grid grid-cols-3 gap-7 pt-4 pr-20 pl-20 pb-6">
 
                                 <CardCenter
